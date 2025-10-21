@@ -1,0 +1,51 @@
+/*div{
+    width: 250px;
+    height: 250px;
+    background-color: #003180;
+    border-radius: 31% 69% 68% 32% / 81% 45% 55% 19% ;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}*/
+
+
+
+.section-padding {
+    background: linear-gradient(to right,
+     #3a7bd5,#00d2ff);
+    color: #fff;
+    border: 10px solid #003b99; 
+
+    /* Apply padding to all side*/
+    padding: 50px;
+
+    /* top-bottom,left-right*/
+    padding: 100px 150px;
+
+    /*top,right,bottom,left
+    padding: 50px 60px 70px 80px;*/
+
+    padding-top: 50px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+    padding-left: 80px;
+}
+
+
+/*INTERVIEW QUESTIONS*?
+
+/*? 1. How do you set padding for all sides of html element 
+       using shorthand notation ?
+       >>>>  /*top,right,bottom,left
+    padding: 50px 60px 70px 80px;*/
+
+/*  2. What is the purpose of negative padding in CSS,
+and can you provide an example?
+>>>>> Negative padding is not .a.standard.CSS.property. Padding is always
+a positive value to create space around an element's 
+content. Negative margens, on the other hand , can be used to overlap elements.*/

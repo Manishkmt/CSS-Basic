@@ -1,0 +1,54 @@
+html{
+    /** font-size: 62.5%*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main-heading {
+    /*font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.56;*/
+}
+
+.section-border {
+   /* width: 1000px;*/
+    
+
+    /* Border here*/
+   /* border: 10px solid #003180;*/
+
+
+   /* border-top:10px solid #003180;
+    border-right: 10px dotted red;
+    border-bottom: 10px rodge green;
+    border-left: 10px double #003180;*/
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: #003180;
+    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );
+}
+
+
+
+/*   INTERVIEWS QUESTIONS
+
+1. How do you set a border around an HTML  element in CSS?
+Explain the border peoperty and its values.
+>>>>border : 2px solid 10px
+
+2. How can you create rounded corners for an HTMLelement in CSS?
+>>>>border-radius : 10px.
+
+3.How do you create a circular border using border-radius?
+>>>>border-radius : 50%. 

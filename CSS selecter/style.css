@@ -1,0 +1,34 @@
+li {
+   font-weight: 700;
+   font-size: 22px;
+}
+
+.html {
+  color: #E34F26;
+}
+
+.css {
+  color: #663399;
+}
+
+.js {
+  color: #F7DF1E;
+}
+
+/* #html {
+  font-size: 22px;
+}
+#css {
+  font-size: 22px;
+}
+
+#js {
+  font-size: 22px;
+} */
+ul p {
+  background-color: green;
+}
+
+h1:hover {
+  color: orange;
+}

@@ -1,0 +1,11 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 94%);
+    background-color: black;
+    place-items: center;
+}
+
+img{
+     filter: drop-shadow(10px 1opx 0 red);
+}

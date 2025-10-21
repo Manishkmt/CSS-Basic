@@ -1,0 +1,17 @@
+
+
+h1{
+   font-family: cursive;
+    font-variant: small-caps;
+}
+
+
+
+/*? 1. How to add custom fonts in CSS?
+>>>> to add custom fonts in CSS, you can use the @font-face rule,
+     which allows you to define and include custome fonts in your wed browser.*/
+
+/*? 2. What is fallback fonts ? why is it important
+to include fallback fonts in your css font stack, and how do you specify them? */
+
+/*? 3.Common font formats and their corrosponding format values are :*/

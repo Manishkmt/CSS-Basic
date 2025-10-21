@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(0,0%,94%);
+}
+
+h1{
+    font-size: 54px;
+    color: blueviolet;
+}
+
+p{
+    font-size: 36px;
+}
+
+li{
+    font-size: 44px;
+}
+
+
+
+/*IMPROTANT QUESTIONS 
+1 What is the main difference between em and rem units in css?
+
+2. *****  How does using rem units in your CSS benefits a responsive web design?
+
+3. Can you explain how the font_size property
+in em units nested within parent elements with
+different font sizes 
+*/
+
+/*
+  IMPORTANT
+ 16px = 100%
+ 1px = 6.25%
+ 10px= =62.5%
+*/
+
+
+
+/* Q1. ?for percentage 100% = 16px
+>>> 1px = 6.25*/
+
+/*  Em(em): rem is also a relative unit is
+calculated based on the font size of the parent
+element.
+
+When you set an element's size in em,it's relative
+to the font sie of its nearest with a specified
+font size.*/
+
+
+/*Root Em(rem): rem is also a relative unit like
+em, but it's based on the font size of the root (html) element.
+
+Using rem ensures that the size is consistent throughout the entire 
+document, making it especially useful for 
+responsive design.*/
+
+
+/* Q2. ? for 1 em = we can specify the font size of our will*/
+/*>>> 1em  = 16px*/

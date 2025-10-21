@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url("https://pbs.twimg.com/media/GskBs__asAILcpz.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background-position: left bottom;*/
+}
+
+/*apply blanding mode on images using
+background-bland-mode: ;
+
+for this we need two images in our website background*/
+
+/*HOW YOU CAN SET A BACKGROUND IMAGE COVER THE ENTIRE ELEMENT WITHOUT DISTROTION?
+>>>you can use background-size: cover;
+
+HOW CAN YOU APPLY MULTIPLE BACKGROUND IMAGES TO A SINGE ELEMENT?
+>>>background-image : url("first image"),("second image);
+
+what is the property that is used for controlling image scroll?
+>>>to use of "background-attachment"

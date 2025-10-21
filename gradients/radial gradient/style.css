@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+ section {
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle,red,yellow,green,white,blue,orange);
+
+
+}
+
+
+/*INTERVIEWS QUESTIONS*/
+
+/* 1. Differently spaced color stops
+>>>
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle,red 10%,yellow 15%,green 20%,white 14%,blue 40%,orange 1%);
+
+}
+    
+2. Set the shape
+>> background-image: repeating-radial-gradient(red,yellow,blue,50px
+
+3. Create a CSS-only rafial gradient that creates a circular pattern of
+colors with smooth transistions between them.*/

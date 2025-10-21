@@ -1,0 +1,17 @@
+h1{
+    color: red;
+}
+
+.pera{
+    color: green;
+}
+
+#btn{
+    background-color: rgb(224, 45, 156);
+    color: white;
+}
+
+#btn:hover{
+    background-color: black;
+    color: white;
+}
