@@ -1,0 +1,46 @@
+p {
+    background:linear-gradient(to right,
+      #182818, #4b6cb7) ;
+}
+
+a {
+    letter-spacing: 1px;
+    background: linear-gradient(to right,
+      #182818, #4b6cb7);
+    box-shadow: rgpa(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    /*width: 500px;
+    height: 100px;*/
+    padding: 15px 32px;
+    border: 1px solid red;
+    margin-top: 10px;
+    margin-right: 30px;
+    display: inline-block;  
+}
+
+
+/* INTERVIEWS QUESTIONS
+
+  1. What is the main difference between display: block; and
+   display: inline; elements in CSS?
+   
+  2. What does display: nine ; do to an element's accessibility?
+  >>>It makes the element completely inaccessible to screen readers
+  and keyboard navigation.
+
+  3. How do you center an element horizontal using display: block; ?
+  >>>>To center a display: block; element horizontal, you can set its left and right nargins to auto.
+
+  4. What is the default behaviour of dispay: inline; element with regard to 
+  margi and padding?
+  >>>> Display: inline; elements don't respect top and bottom margins or padding,
+  only left and right . also width and height is not accepted.
+
+  5. *** How can you make an inline element like a link or a span act like a block-level element?
+  >>> You can apply display: block; or display: inline-block; to make an inline 
+  element behave like a block-level element
+
+  6. What is the impact of applying display: block; to an anchor <a> elemrnt?
+  >>>> Applying display: block; to an anchor element allows you to set its width, height and apply padding or margin.
+   This os often used for creating custom-styled buttons.
