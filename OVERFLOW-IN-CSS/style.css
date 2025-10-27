@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    place-items: center;
+
+}
+
+#main-heading{
+    font-size: 6.2rem;
+    color: #1e1403;
+    margin: 3rem 0;
+
+}
+
+p{
+    line-height: 40px;
+    font-size: 2rem;
+}
+
+.overflow-div{
+    width: 600px;
+    height: 300px;
+    box-shadow: rgpa(0, 0, 0, 0.5) 0px 6px 24px 0px'
+      rgpa(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border: 5px solid #9eb384;  
+    padding: 10px;
+
+    /*overflow code is start from here*/
+    /*overflow: visible;*/
+    /*overflow-y: scroll ;*/
+    overflow: auto;
+} 
+
+
+/* INTERVIEWS QUESTIONS
+
+ 1. How does the overflow : hidden: property value work?
+ >>> When overflow is set to hiden, any content that overflows the container's
+ box is clipped and not vivible. It effectvely hides the overflowed content.
+
+ 2. What is the difference between overflow: auto; and overflow: scroll; ?
+ >>>> Both are display scroll bars when content overflows. However, overflow: auto; only 
+ shows scrollbars when content overflows, while overflow: scroll;
+ always shows scrollbars.
+ 
+ 3. How can you make an element scrollable only horizontally(horizontally overflowed content)
+ while hiding the vertical overflow?
+ 
